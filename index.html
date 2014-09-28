@@ -1,0 +1,193 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>CASCADE Home</title>
+    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    	<link href="stylesheets/main-stylesheet.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- NAVIGATION BAR (necessary for all webpages) -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+
+		  	<div class="navbar-header">
+
+			  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse">
+			  		<span class="icon-bar"></span>
+			  		<span class="icon-bar"></span>
+			  		<span class="icon-bar"></span>
+			  	</button>
+
+			  	<a class="navbar-brand" href="#">
+		  			<img class="cclogo" src="images/logo.png">
+		  		</a>
+
+			</div>
+
+		  	<div class="collapse navbar-collapse navHeaderCollapse">
+		  		<ul class="nav navbar-nav navbar-right">
+		  			<li class="active"><a href="#">Home</a></li>
+		  			<li><a href="#">Products/Services</a></li>
+		  			<li class="dropdown">
+
+		  				<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+		  				<ul class="dropdown-menu">
+		  					<li><a href="#">Technology and Overview</a></li>
+		  					<li><a href="#">Social Media</a></li>
+		  					<li><a href="#">Team</a></li>
+		  				</ul>	
+
+		  			</li>
+		  			<li><a href="#">Contact</a></li>
+		  			<li><a href="#">Careers</a></li>
+		  		</ul>
+		  	</div>
+		  </div>
+		</nav>
+
+		<!-- CAROSEL CODE -->
+		
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <div id="csimg1" class="carousel-img"></div>
+		      <div class="carousel-caption">
+		    	<h1><strong>Garbage in, Energy out!</strong></h1>
+		    	<p class="lead"> 
+		    		We select smart microbes that recycle resources from wastes found in cities and farms, and design systems that generate bioenergy.
+		    	</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <div id="csimg2" class="carousel-img"></div>
+		      <div class="carousel-caption">
+		        <h1><strong>Our Mission</strong></h1>
+		        <p class="lead"> 
+		        	We strive to find new and unconventional methods of generating clean energy from wastes, while also benefiting our investors, employees, and society itself.
+		    	</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <div id="csimg3" class="carousel-img"></div>
+		      <div class="carousel-caption">
+		        <h1><strong>Combining Data Science and Biology</strong></h1>
+		        <p class="lead"> 
+		        	We use our patented Computer Assisted Strain Construction and Devlopment Engineering (CASCADE) method to select smart microorganisms from our comprehensive bio-database.
+		    	</p>
+		      </div>
+		    </div>
+
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+		</div>
+
+		<!-- CONTENT --> 
+
+		<div class="container-fluid">
+
+			<div class="col-md-3 col-sm-9 col-xs-12">
+				<div class="center-it hidden-sm">
+					<img src="images/the_problem_icon.png" class="homepage-icons">
+				</div>
+
+				<div>
+					<h1 class="center-it"><strong>Who we are</strong></h1>
+					<p>
+						CASCADE uses smart microorganisms selected by our patented computer intelligence technology to generate clean energy and other reusable resources from various wastes (solid, liquid, or gas). Our mission is to operate a sustainable, energy effective system of wastewater treatment that reduces costs while also extracting clean energy from the wastewater. We are constantly looking for new sources of renewable energy. 
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-9 col-xs-12">
+				<div class="center-it hidden-sm">
+					<img src="images/the_problem_icon.png" class="homepage-icons">
+				</div>
+
+				<div>
+					<h1 class="center-it"><strong>The Problem</strong></h1>
+					<p>
+						About 2.6 billion people (42%) of Earth’s population lack access to basic sanitation. Inadequate handling of wastewater has serious consequences for human health, the environment and economy. Wastewater can increase the risk of infectious diseases, and deteroprate groundwater and other local ecosystems. The cost of treating wastewater can be very high and governments often have insufficient resources available for mitigating action.
+					</p>
+				</div>
+			</div>
+
+			<div class="visible-sm col-sm-3">
+				<img src="images/the_problem_icon.png" class="homepage-icons">
+			</div>
+
+			<div class="col-md-3 col-sm-9 col-xs-12">
+				<div class="center-it hidden-sm">
+					<img src="images/the_solution_icon.png" class="homepage-icons">
+				</div>
+
+				<div>
+					<h1 class="center-it"><strong>The Solution</strong></h1>
+					<p>
+						Waste Water Works (WWW) is a sustainable wastewater treatment solution developed at CASCADE.  It increases the efficiency of clean energy production (e.g. methane, hydrogen or electricity) from wastewater, while maximizing the efficiency of Microbial Fuel Cell (MFC). Ninety-nine percent of current wastewater treatment facilities do not recover any energy from wastewater, while the remaining 1% only harvest 15% of the total energy stored in the organic waste. 
+					</p>
+				</div>
+			</div>
+
+			<div class="visible-sm col-sm-3">
+				<img src="images/the_solution_icon.png" class="homepage-icons">
+			</div>
+
+			<div class="col-md-3 col-sm-9 col-xs-12">
+				<div class="center-it hidden-sm">
+					<img src="images/the_future_icon.png" class="homepage-icons">
+				</div>
+
+				<div>
+					<h1 class="center-it"><strong>The Future</strong></h1>
+					<p>
+						This represents a $15 billion market in the U.S., and there is potentially $60 billion globally addressable by business solutions. Our solutions have the potential to generate $10 billion of methane or electricity and save another $10 billion in energy costs in the U.S. alone, while also cleaning dirty water in the process. 
+					</p>
+				</div>
+			</div>
+
+			<div class="visible-sm col-sm-3">
+				<img src="images/the_future_icon.png" class="homepage-icons">
+			</div>
+
+		</div>	
+
+		<div id="products-services" class="visible-xs container center-it">
+			<button type="button" class="btn btn-info btn-lg">Products / Services</button>
+
+		</div>
+
+		<div class="footer">
+			<p class="center-it" style="color:white">© 2014 CASCADE Clean Energy, Inc.</p>
+		</div>
+
+	</body>
+
+</html>
