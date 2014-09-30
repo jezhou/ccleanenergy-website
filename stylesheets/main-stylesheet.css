@@ -1,4 +1,7 @@
 body {padding-top: 60px;}
+.language-links{
+  padding-top: 40px;
+}
 .basic-header{ color: green}
 .cclogo{ max-height: 100%; }
 
